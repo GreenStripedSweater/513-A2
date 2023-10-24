@@ -4,6 +4,11 @@
 /* Name: Manreet Bansal  */
 /* UCID: 30110122  */
 
+body {
+    background-color: #00001e;
+}
+
+
 #startPage {
     width: 1000px;
     height: 700px;
@@ -23,13 +28,17 @@
 
 .links {
     text-decoration: none;
-    padding: 5%;
+    padding: 2%;
     font-size: 20px;
     color: #cc92b0;
 }
 
 .links:hover {
     color: #c14585;
+}
+
+#fixLinks {
+    padding: 0;
 }
 
 #instructionsPage {
@@ -56,9 +65,7 @@
 }
 
 .body {
-    padding: 0 0;
-    margin: 0;
-    overflow-x: hidden;
+    align-items: center;
 }
 
 
@@ -74,11 +81,9 @@
 }
 
 .header {
-    padding: 0;
-    margin: 0;
     height: 50px;
     width: 1000px;
-    background-color: #282851;
+    background-color: #00001e;
 
 }
 
